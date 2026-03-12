@@ -1,10 +1,10 @@
 # collaborating-with-codex
 
-A Claude Code **Agent Skill** that bridges Claude with OpenAI Codex CLI for multi-model collaboration on coding tasks.
+A Claude Code / Google Antigravity **Skill** that bridges the host agent with OpenAI Codex CLI for multi-model collaboration on coding tasks.
 
 ## Overview
 
-This Skill enables Claude to delegate coding tasks to Codex CLI, combining the strengths of multiple AI models. Codex handles algorithm implementation, debugging, and code analysis while Claude orchestrates the workflow and refines the output.
+This Skill enables a host agent such as Claude Code or Google Antigravity to delegate coding tasks to Codex CLI. Codex handles algorithm implementation, debugging, and code analysis while the host agent orchestrates the workflow and refines the output.
 
 ## Features
 
@@ -17,9 +17,11 @@ This Skill enables Claude to delegate coding tasks to Codex CLI, combining the s
 ## Installation
 
 1. Ensure [Codex CLI](https://github.com/openai/codex) is installed and available in your PATH
-2. Copy this Skill to your Claude Code skills directory:
-   - User-level: `~/.claude/skills/collaborating-with-codex/`
-   - Project-level: `.claude/skills/collaborating-with-codex/`
+2. Copy this Skill to the platform-specific skills directory:
+   - Claude Code user-level: `~/.claude/skills/collaborating-with-codex/`
+   - Claude Code project-level: `.claude/skills/collaborating-with-codex/`
+   - Antigravity user-level: `~/.gemini/antigravity/skills/collaborating-with-codex/`
+   - Antigravity workspace-level: `.agents/skills/collaborating-with-codex/`
 
 ## Usage
 
